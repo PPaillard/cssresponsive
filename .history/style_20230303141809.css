@@ -57,7 +57,7 @@ section {
 
 section article {
   display: inline-block;
-  color: red;
+  color:red
   margin: 1rem;
   border-radius: 0.2rem;
   box-shadow: 0 0 1rem grey;

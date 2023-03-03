@@ -57,19 +57,14 @@ section {
 
 section article {
   display: inline-block;
-  color: red;
+  width: 40%;
   margin: 1rem;
   border-radius: 0.2rem;
   box-shadow: 0 0 1rem grey;
 }
 
-#featured-posts > div {
+#featured-posts {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#featured-posts > div > article:first-of-type {
-  grid-column: 1/3;
 }
 
 footer {
