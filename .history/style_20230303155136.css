@@ -86,11 +86,11 @@ footer {
     display: inline-block;
   }
 
-  #featured-posts > div:not() {
+  #featured-posts > div {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  #featured-posts > div > article:first-of-type(:min) {
+  #featured-posts > div > article:first-of-type {
     grid-row: 1/3;
   }
 }
