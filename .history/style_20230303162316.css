@@ -90,7 +90,7 @@ footer {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  #featured-posts > div > article:first-of-type {
+  #featured-posts > div > article:first-of-type(:min) {
     grid-row: 1/3;
   }
 }
